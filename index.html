@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Famous Songs</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.17/tailwind.min.css" integrity="sha512-vv4O4o4+l4z8E5Jp+m5vAvETgY5S5+J+NQ2lRZd4TxJLz4X4dAzEEWnFv69b+Y2g80UJ8xUW08MQEexEm6+DpA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="input.css">
+</head>
+<body class="bg-gray-200">
+  <div class="container mx-auto p-4">
+  <br><br>
+  <h1 class="text-3xl font-bold mb-4  h1"  ><a>Famous Songs</a></h1>
+    <input type="text" id="search-box" placeholder="Search for songs..." class="search-box">
+  <br><br>
+
+    <div id="song-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div class="bg-white rounded-lg shadow-lg">
+        <img src="https://www.pagalworld.us/_big/ek-villain-2014-250.jpg" alt="album cover" class="rounded-t-lg">
+        <div class="p-4">
+          <h2 class="text-lg font-bold mb-2">Ek Villain (2014)</h2>
+          <p class="text-gray-600 mb-4">Arijit Singh</p>
+          <audio controls >
+            <source src="https://cdn.pagalworld.us/songs/bollywood/EV%20-%20Hamdard.mp3" type="audio/ogg" class = "audio">
+          </audio>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-lg">
+        <img src="https://www.pagalworld.us/_big/kabir-singh-2019-250.jpg" alt="album cover" class="rounded-t-lg">
+        
+        <div class="p-4">
+          <h2 class="text-lg font-bold mb-2">Kabir Singh (2019)</h2>
+          <p class="text-gray-600 mb-4">Arijit Singh</p>
+          <audio controls>
+            <source src="https://cdn.pagalworld.us/songs/new/192/02%20-%20Tujhe%20Kitna%20Chahne%20Lage%20-%20Kabir%20Singh%20(2019).mp3" type="audio/ogg">
+          </audio>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-lg">
+        <img src="https://www.pagalworld.us/_big/sanam-teri-kasam-2016-250.jpg" alt="album cover" class="rounded-t-lg">
+        <div class="p-4">
+          <h2 class="text-lg font-bold mb-2">	Sanam Teri Kasam (2016)</h2>
+          <p class="text-gray-600 mb-4">Nirvana</p>
+          <audio controls>
+            <source src="https://cdn.pagalworld.us/songs/bollywood/STK%20-%20Tera%20Chehra.mp3" type="audio/ogg">
+          </audio>
+        </div>
+      </div>
+
+    
+    <div class="bg-white rounded-lg shadow-lg">
+      <img src="https://www.pagalworld.us/_big/ae-dil-hai-mushkil-2016-250.jpg" alt="album cover" class="rounded-t-lg">
+      <div class="p-4">
+        <h2 class="text-lg font-bold mb-2">Ae dil hai mushkil</h2>
+        <p class="text-gray-600 mb-4">Arijit Singh</p>
+        <audio controls>
+          <source src="https://cdn.pagalworld.us/songs/bollywood/ADHM%20-%20Ae%20Dil%20Hai%20Mushkil.mp3" type="audio/ogg">
+        </audio>
+      </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg">
+      <img src="https://www.pagalworld.us/_big/aashiqui-2-2013-250.jpg" alt="album cover" class="rounded-t-lg">
+      <div class="p-4">
+        <h2 class="text-lg font-bold mb-2">Smooth</h2>
+        <p class="text-gray-600 mb-4">Santana featuring Rob Thomas</p>
+        <audio controls>
+          <source src="https://cdn.pagalworld.us/songs/new/192/01%20-%20Tum%20Hi%20Ho%20-%20PagalSongs.com.mp3" type="audio/ogg">
+        </audio>
+      </div>
+    </div>
+  </div>
+</div>  
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
